@@ -24,6 +24,8 @@ To run the development server on your machine,
 
 Send a POST request with the appropriate fields to the appropriate URI.
 
+NOTE: you can use `Content-Type: multipart/form-data` header to send in the data instead of passing it in the URI itself as a query string.
+
 ## Here is a list of all available URIs
 
 1. `/api/register`
