@@ -50,7 +50,7 @@ NOTE: you can use `Content-Type: multipart/form-data` header to send in the data
     ### General URI
     `[host]:[port]/api/login?username=[username]&password=[password]`
     
-   ### Example URI
+    ### Example URI
    `http://127.0.0.1:8000/api/login?username=michael&password=senshi`
 
 ---
@@ -61,8 +61,8 @@ NOTE: you can use `Content-Type: multipart/form-data` header to send in the data
     ### General URI
     `[host]:[port]/api/logout`
     
-   ### Example URI
-   `http://127.0.0.1:8000/api/logout`
+    ### Example URI
+    `http://127.0.0.1:8000/api/logout`
 
 ---
 
@@ -72,8 +72,8 @@ NOTE: you can use `Content-Type: multipart/form-data` header to send in the data
     ### General URI
     `[host]:[port]/api/list`
     
-   ### Example URI
-   `http://127.0.0.1:8000/api/list`
+    ### Example URI
+    `http://127.0.0.1:8000/api/list`
 
 ---
 
@@ -84,8 +84,8 @@ NOTE: you can use `Content-Type: multipart/form-data` header to send in the data
     ### General URI
     `[host]:[port]/api/list/create?title=[title]`
     
-   ### Example URI
-   `http://127.0.0.1:8000/api/list/create?title=my%20first%20list`
+    ### Example URI
+    `http://127.0.0.1:8000/api/list/create?title=my%20first%20list`
 
 ---
 
@@ -95,9 +95,9 @@ NOTE: you can use `Content-Type: multipart/form-data` header to send in the data
     
     ### General URI
     `[host]:[port]/api/list/[list_id]`
-    
-   ### Example URI
-   `http://127.0.0.1:8000/api/list/5`
+
+    ### Example URI
+    `http://127.0.0.1:8000/api/list/5`
 
 ---
 
@@ -109,9 +109,9 @@ NOTE: you can use `Content-Type: multipart/form-data` header to send in the data
     
     ### General URI
     `[host]:[port]/api/list/[list_id]/edit`
-    
-   ### Example URI
-   `http://127.0.0.1:8000/api/list/5/edit?title=my%20second%20edited%20list`
+
+    ### Example URI
+    `http://127.0.0.1:8000/api/list/5/edit?title=my%20second%20edited%20list`
 
 ---
 
@@ -122,8 +122,8 @@ NOTE: you can use `Content-Type: multipart/form-data` header to send in the data
     ### General URI
     `[host]:[port]/api/list/[list_id]/delete`
     
-   ### Example URI
-   `http://127.0.0.1:8000/api/list/5/delete`
+    ### Example URI
+    `http://127.0.0.1:8000/api/list/5/delete`
 
 ---
 
@@ -135,8 +135,8 @@ NOTE: you can use `Content-Type: multipart/form-data` header to send in the data
     ### General URI
     `[host]:[port]/api/list/[list_id]/item?body=[body]`
     
-   ### Example URI
-   `http://127.0.0.1:8000/api/list/5/item?body=my%20first%20item`
+    ### Example URI
+    `http://127.0.0.1:8000/api/list/5/item?body=my%20first%20item`
 
 ---
 
@@ -148,8 +148,8 @@ NOTE: you can use `Content-Type: multipart/form-data` header to send in the data
     ### General URI
     `[host]:[port]/api/list/[list_id]/item/[item_id]`
     
-   ### Example URI
-   `http://127.0.0.1:8000/api/list/5/item/8`
+    ### Example URI
+    `http://127.0.0.1:8000/api/list/5/item/8`
 
 ---
 
@@ -162,8 +162,8 @@ NOTE: you can use `Content-Type: multipart/form-data` header to send in the data
     ### General URI
     `[host]:[port]/api/list/[list_id]/item/[item_id]/edit?body=[body]`
     
-   ### Example URI
-   `http://127.0.0.1:8000/api/list/5/item/8/edit?body=my%20first%20edited%20item`
+    ### Example URI
+    `http://127.0.0.1:8000/api/list/5/item/8/edit?body=my%20first%20edited%20item`
 
 ---
 
@@ -175,8 +175,8 @@ NOTE: you can use `Content-Type: multipart/form-data` header to send in the data
     ### General URI
     `[host]:[port]/api/list/[list_id]/item/[item_id]/delete`
     
-   ### Example URI
-   `http://127.0.0.1:8000/api/list/5/item/8/delete`
+    ### Example URI
+    `http://127.0.0.1:8000/api/list/5/item/8/delete`
 
 ---
 
