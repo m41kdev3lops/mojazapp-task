@@ -61,5 +61,6 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         // ---------- my middlewares ----------
         'myAuth' => \App\Http\Middleware\myAuth::class,
+        'validateUserInput' => \App\Http\Middleware\ValidateUserInput::class,
     ];
 }
