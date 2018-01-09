@@ -30,7 +30,7 @@ class ValidateUserInput
                     Rule::unique('my_lists')->where(function ($query) use ($request) {
                         return $query->where([
                             ['my_lists.user_id', '=', auth()->user()->id], 
-                            ['my_lists.title', '=', $request->query('title')],
+                            ['my_lists.title', '=', $request->get('title')],
                         ]);
                     }),
                 ],
@@ -55,7 +55,7 @@ class ValidateUserInput
                     Rule::unique('items')->where(function ($query) use ($request) {
                         return $query->where([
                             ['items.my_list_id', '=', $request->route()->parameters()['list']],
-                            ['items.body', '=', $request->query('body')],
+                            ['items.body', '=', $request->get('body')],
                         ]);
                     }),
                 ],
