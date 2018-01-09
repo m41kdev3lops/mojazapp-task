@@ -62,5 +62,6 @@ class Kernel extends HttpKernel
         // ---------- my middlewares ----------
         'myAuth' => \App\Http\Middleware\myAuth::class,
         'validateUserInput' => \App\Http\Middleware\ValidateUserInput::class,
+        'checkIfListBelongsToUser' => \App\Http\Middleware\CheckIfListBelongsToUser::class,
     ];
 }
