@@ -19,7 +19,6 @@ class myList extends Model
     public function add_item(Item $item)
     {
         $item->my_list_id = $this->id;
-        $item->save();
     }
 
     public function items()
